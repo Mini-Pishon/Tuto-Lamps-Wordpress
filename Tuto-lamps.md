@@ -48,7 +48,7 @@ sudo vim /etc/apache2/sites-available/website.conf
 ```
 
 ```
-sudo a2ensite purr.conf && \
+sudo a2ensite yoursite.conf && \
   sudo systemctl reload apache2.service && \
   sudo systemctl status apache2.service -l --no-pager
 [14:17]
